@@ -113,7 +113,7 @@ The application uses the following configuration constants:
 |----------|-------------|---------------|
 | `CERT_FILE_PATH` | Path to the TLS certificate file | `/opt/epaas/vault/secrets/certrenewalautomation_client_auth_cert.crt` |
 | `KEY_FILE_PATH` | Path to the private key file | `/opt/epaas/vault/secrets/certrenewalautomation_client_private_key.key` |
-| `API_SERVER_URL` | Kubernetes API server URL | `https://api.cld-paas-d-eusw1b-3.phx.aexp.com:6443` |
+| `API_SERVER_URL` | Kubernetes API server URL | `` |
 | `SECRETS_FILE_PATH` | Path to secrets configuration | `/opt/epaas/vault/secrets/secrets` |
 | `CACERTS_FILE_PATH` | Path to CA certificates | `/opt/epaas/vault/secrets/outbound_cacerts.json` |
 | `NAMESPACE` | Target Kubernetes namespace | `gloo-system` |
